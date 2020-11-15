@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-api",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@carbon/icons-react": "^10.21.0",
     "@carbon/themes": "^10.23.0",
@@ -10,7 +10,8 @@
     "@testing-library/user-event": "^12.1.10",
     "carbon-components": "^10.24.0",
     "carbon-components-react": "^7.24.0",
-    "node-sass": "^5.0.0",
+    "carbon-icons": "^7.0.7",
+    "node-sass": "^4.13.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",

@@ -8,7 +8,7 @@ const items = [
 { name: 'Me', path: '/'},
 { name: 'Project', path: '/projects'},
 { name: 'Work', path: '/work'},
-{ name: 'Education,', path: '/education'},
+{ name: 'Education', path: '/education'},
 ]
 
 

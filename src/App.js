@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Pages from './pages';
 import React, {useEffect, useState} from 'react';
-//https://gitconnected.com/v1/portfolio/chrisjabb21
+
 function App() {
     const [user, setUser] = useState(null);
     useEffect(() =>{

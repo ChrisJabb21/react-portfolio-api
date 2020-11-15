@@ -14,14 +14,13 @@ export const Spacer = styled.div`
 `;
 
 export const NavWrapper = styled.div`
-display: flex;
-justify-content: center;
-position: fixed;
-width: 100vw;
-top: 0;
-left: 0;
-z-index: 1;
-
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1;
 `;
 
 export const NavLink = styled(Link)`

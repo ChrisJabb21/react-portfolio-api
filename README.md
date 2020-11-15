@@ -1,11 +1,9 @@
 # Project Overview
----
 A React app that uses a Portfolio API for fetching changes and generate resume and portfolio information to the frontend made to gitconnected profile.
 
-Technologies used: React, Node Sass, Carbon React UI Library (Carbon Design System), portfolio API for endpoint to provide portfolio information and fetch updates 
+Technologies used: React, Node Sass, Carbon React UI Library (Carbon Design System), portfolio API for endpoint to provide portfolio information and fetch updates.
 
 # Project Setup
---- 
 ## Getting Started with Portfolio API
 
 More on portfolio API at [gitconnected](https://gitconnected.com/).

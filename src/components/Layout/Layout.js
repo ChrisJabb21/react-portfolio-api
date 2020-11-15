@@ -3,6 +3,8 @@ import Sidebar from '../Sidebar';
 import MobileNav from '../MobileNav';
 import UserHeader from '../UserHeader';
 
+import {StyledContent} from './styles';
+
 const Layout = ({ user, children }) => {
     return ( 
      <>
