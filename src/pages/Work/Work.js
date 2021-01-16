@@ -8,7 +8,6 @@ const Work = ({ user }) => {
         <Layout user={user}>
             <div>
                     <SectionTitle>Work</SectionTitle>
-                    <i>(Current Job if end year is empty)</i>
                 <ul>
                     {user.work.map((work, i) => (
                     <WorkItem key={i}>
@@ -17,12 +16,12 @@ const Work = ({ user }) => {
                         </WorkTitle>
                     <div>
                     <JobTitle>{work.company} </JobTitle>
-                    <span>  {work.location}</span>
-                    <span>  &sdot; </span>
+                    <br></br><span>{work.location}</span>
+                    <br></br>
                         <span>
                         Start: {work.start.month}/{work.start.year}, to end: {work.end.year}
                         </span>
-                        <br></br><span>Total months: {work.start.month +work.start.month}</span>
+                        <br></br><span>Current role: {work.isCurrentRole.toString()} </span>
                     </div>
                     <Paragraph>{work.summary}</Paragraph>
                 </WorkItem>

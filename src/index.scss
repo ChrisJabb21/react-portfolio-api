@@ -12,22 +12,27 @@ a {
 .bx--side-nav__navigation {
   background-color: $ui-background;
 }
+span {
+  margin: 5px;
+}
 
 a.bx--side-nav__link--current,
 a.bx--side-nav__link--current > span.bx--side-nav__link-text {
   background-color: $ui-01;
   color: $text-04;
+  border-color: #0b0a0a;
 }
 
 .bx--side-nav__item:not(.bx--side-nav__item--active)
   > .bx--side-nav__link:hover {
   background-color: $ui-01;
   color: $text-04;
+  border-color: #0b0a0a;
 }
 
 .bx--btn--primary{
   color: #0b0a0a;
-background-color: #d5d12f;
+background-color: #2ecc40;
 }
 
 a.bx--side-nav__link > .bx--side-nav__link-text,
@@ -37,14 +42,9 @@ a.bx--side-nav__link > .bx--side-nav__link-text,
   color: $text-04;
 }
 
-// a.bx--side-nav__link 
-// {
-//   background-color: #fffd6c;
-
-// }
 a.bx--side-nav__link[aria-current="page"]::before, a.bx--side-nav__link--current::before
 {
-  background-color: #fffd6c;
+  background-color:2px solid #2ecc40;
 }
 .bx--btn--primary:hover {
   background-color: black;

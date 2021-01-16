@@ -10,8 +10,6 @@ const Projects = ({ user }) => {
                 <SectionTitle>Projects</SectionTitle>
                 <ul>
                     {user.projects.map((project, i) => (
-
-
                         <ProjectItem key={i}>
                             <ProjectTitle>{project.name}</ProjectTitle>
                             <p>{project.summary}</p>

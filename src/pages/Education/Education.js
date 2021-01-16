@@ -12,12 +12,13 @@ const Education = ({ user }) => {
                 <ul>
                     {user.education.map((education, i) => (
                     <EducationItem key={i}>
+                    <Institution>{education.institution}</Institution>
                     <Institution>{education.position}</Institution>
                     <div>
                         <Degree>
                             {education.studyType}, {education.area}
                         </Degree>{' '}
-                        <span> &sdot;</span>
+                        <span> &sdot; </span>
                         <span>
                             {education.start.year} to {education.end.year}
                         </span>
